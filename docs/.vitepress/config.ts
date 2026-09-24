@@ -1,4 +1,4 @@
-import { defineConfig, type DefaultTheme } from "vitepress";
+import { defineConfig, type DefaultTheme, type HeadConfig } from "vitepress";
 
 // ── 페이지 슬러그 (ko/ja 공통) ──────────────────────────────────────────────
 const reportSlugs = [
@@ -207,6 +207,30 @@ const jaLabels: Labels = {
   footerCopy: "© 2026 ROBOCO · 原文 © Google LLC (CC BY 4.0)",
 };
 
+const SITE_URL = "https://roboco.io/dora-ai-guide/";
+
+function ogHead(o: {
+  locale: string;
+  image: string;
+  alt: string;
+  title: string;
+  description: string;
+}): HeadConfig[] {
+  return [
+    ["meta", { property: "og:locale", content: o.locale }],
+    ["meta", { property: "og:image", content: SITE_URL + o.image }],
+    ["meta", { property: "og:image:width", content: "1200" }],
+    ["meta", { property: "og:image:height", content: "630" }],
+    ["meta", { property: "og:image:alt", content: o.alt }],
+    ["meta", { property: "og:title", content: o.title }],
+    ["meta", { property: "og:description", content: o.description }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["meta", { name: "twitter:image", content: SITE_URL + o.image }],
+    ["meta", { name: "twitter:title", content: o.title }],
+    ["meta", { name: "twitter:description", content: o.description }],
+  ];
+}
+
 export default defineConfig({
   base: "/dora-ai-guide/",
   title: "DORA AI Guide",
@@ -216,22 +240,6 @@ export default defineConfig({
     ["link", { rel: "icon", type: "image/svg+xml", href: "/dora-ai-guide/logo.svg" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:site_name", content: "DORA AI Guide" }],
-    [
-      "meta",
-      {
-        property: "og:title",
-        content: "DORA AI Guide — DORA AI 리서치 한국어·일본어 요약",
-      },
-    ],
-    [
-      "meta",
-      {
-        property: "og:description",
-        content:
-          "DORA의 AI 리포트·AI Capabilities Model 7대 역량·인사이트를 한국어와 일본어로 요약한 비공식 가이드. 원문 CC BY 4.0.",
-      },
-    ],
-    ["meta", { name: "twitter:card", content: "summary" }],
   ],
   cleanUrls: true,
   lastUpdated: true,
@@ -252,6 +260,14 @@ export default defineConfig({
       lang: "ko-KR",
       description:
         "DORA의 AI 리서치를 한국어로 요약한 비공식 가이드. 원문은 CC BY 4.0.",
+      head: ogHead({
+        locale: "ko_KR",
+        image: "og.png",
+        alt: "DORA AI Guide — AI는 증폭기다",
+        title: "DORA AI Guide — AI는 증폭기다",
+        description:
+          "DORA의 AI 리포트·7대 역량·인사이트를 한국어로 요약한 비공식 가이드. 원문 CC BY 4.0.",
+      }),
       themeConfig: {
         nav: koLabels.nav,
         sidebar: makeSidebar("", koLabels),
@@ -269,6 +285,14 @@ export default defineConfig({
       lang: "ja",
       description:
         "DORAのAIリサーチを日本語で要約した非公式ガイド。原文はCC BY 4.0。",
+      head: ogHead({
+        locale: "ja_JP",
+        image: "og.ja.png",
+        alt: "DORA AI Guide — AIは増幅器である",
+        title: "DORA AI Guide — AIは増幅器である",
+        description:
+          "DORAのAIレポート・7つのケイパビリティ・インサイトを日本語で要約した非公式ガイド。原文はCC BY 4.0。",
+      }),
       themeConfig: {
         nav: jaLabels.nav,
         sidebar: makeSidebar("/ja", jaLabels),

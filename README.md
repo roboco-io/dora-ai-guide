@@ -31,6 +31,17 @@ GitHub Actions가 `main` 브랜치 push 시 `docs/.vitepress/dist`를 GitHub Pag
 조직 GitHub Pages 도메인(`roboco.io`) 하위 경로로 서비스되므로 `base`는 `/dora-ai-guide/`입니다.
 `dora-ai.roboco.io` 같은 전용 서브도메인을 쓰려면 `docs/public/CNAME`에 도메인을 추가하고 DNS CNAME을 설정한 뒤 `base`를 `/`로 수정하세요.
 
+## SNS 썸네일(OG 이미지)
+
+한국어·일본어 OG 이미지(1200×630)를 `docs/public/`에 두고 각 로케일의 `og:image`/`twitter:image`에 연결했습니다.
+재생성이 필요하면:
+
+```bash
+python3 scripts/make-og.py   # docs/public/og.png, docs/public/og.ja.png 생성
+```
+
+Pillow와 macOS 시스템 폰트(Apple SD Gothic Neo / Hiragino Sans)를 사용합니다.
+
 ## 저작권 및 라이선스
 
 - **원문 저작권**: DORA는 Google Cloud가 운영하는 프로그램이며, 사이트의 모든 콘텐츠는 별도 표기가 없는 한 **Google LLC**가 **CC BY 4.0**으로 라이선스합니다.
