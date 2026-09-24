@@ -30,7 +30,7 @@ JA_W6 = "/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc"
 LATIN = "/System/Library/Fonts/HelveticaNeue.ttc"
 
 KO = dict(
-    eyebrow="DORA AI GUIDE",
+    eyebrow="UNOFFICIAL · DORA AI GUIDE",
     title="AI는 증폭기다",
     subtitle="DORA AI 리서치, 한국어로 요약하다",
     bullets="리포트 4종 · 7대 역량 · 인사이트 12편",
@@ -40,7 +40,7 @@ KO = dict(
     fonts=(KO_FONT, 6, KO_FONT, 2, KO_FONT, 0),  # title, subtitle, body
 )
 JA = dict(
-    eyebrow="DORA AI GUIDE",
+    eyebrow="UNOFFICIAL · DORA AI GUIDE",
     title="AIは増幅器である",
     subtitle="DORAのAIリサーチを日本語で要約",
     bullets="レポート4本 · 7つのケイパビリティ · インサイト12本",

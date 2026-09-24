@@ -22,10 +22,12 @@
 
 ## このリポジトリのライセンス
 
-| 対象 | ライセンス |
-|---|---|
-| 原文テキストおよびそれに基づく日本語・韓国語要約 | CC BY 4.0（原著作者: Google LLC） |
-| サイト構成・設定・スクリプト・テーマ設定 | MIT |
+| 対象 | ライセンス | ファイル |
+|---|---|---|
+| 原文テキストおよびそれに基づく日本語・韓国語要約 | CC BY 4.0（原著作者: Google LLC） | [`LICENSE`](https://github.com/roboco-io/dora-ai-guide/blob/main/LICENSE) |
+| サイト構成・設定・スクリプト・テーマ設定 | MIT | [`LICENSE-CODE`](https://github.com/roboco-io/dora-ai-guide/blob/main/LICENSE-CODE) |
+
+ライセンス範囲は [`NOTICE`](https://github.com/roboco-io/dora-ai-guide/blob/main/NOTICE) にまとめています。
 
 ## 変更の明示
 
@@ -37,10 +39,14 @@
 
 原文の特定の文をそのまま引用している箇所がありますが、それ以外は要約・再記述しています。正確な数値・文脈は必ず原文を確認してください。
 
+## 商標について
+
+- 「DORA」「Google」「Google Cloud」および関連する名称・ロゴは各所有者の商標です。
+- CC BY 4.0は**著作権のみ**をライセンスし、商標権は付与しません。本サイトはDORAのロゴ・ブランド資産を使用せず、DORA・Googleと**公式の提携・後援・推奨関係はありません。**
+
 ## 免責
 
 - 本サイトは**DORAおよびGoogleと公式提携関係のない非公式文書**です。
-- DORA、Google Cloudは各所有者の商標です。
 - 要約過程での誤りの可能性があるため、意思決定にあたっては原文を優先してください。
 
 ## リポジトリ

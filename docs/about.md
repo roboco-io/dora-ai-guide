@@ -22,10 +22,12 @@
 
 ## 이 저장소의 라이선스
 
-| 대상 | 라이선스 |
-|---|---|
-| 원문 텍스트 및 그에 기반한 한국어·일본어 요약 | CC BY 4.0 (원저작자: Google LLC) |
-| 사이트 구성·설정·스크립트·테마 설정 | MIT |
+| 대상 | 라이선스 | 파일 |
+|---|---|---|
+| 원문 텍스트 및 그에 기반한 한국어·일본어 요약 | CC BY 4.0 (원저작자: Google LLC) | [`LICENSE`](https://github.com/roboco-io/dora-ai-guide/blob/main/LICENSE) |
+| 사이트 구성·설정·스크립트·테마 설정 | MIT | [`LICENSE-CODE`](https://github.com/roboco-io/dora-ai-guide/blob/main/LICENSE-CODE) |
+
+라이선스 범위는 [`NOTICE`](https://github.com/roboco-io/dora-ai-guide/blob/main/NOTICE)에 정리되어 있습니다.
 
 ## 변경 명시
 
@@ -37,10 +39,14 @@
 
 원문의 특정 문장을 그대로 인용한 경우가 있으며, 그 외에는 요약·재서술했습니다. 정확한 수치·맥락은 반드시 원문을 확인하세요.
 
+## 상표 고지
+
+- "DORA", "Google", "Google Cloud" 및 관련 명칭·로고는 해당 소유자의 상표입니다.
+- CC BY 4.0은 **저작권만** 라이선스하며 상표권은 부여하지 않습니다. 이 사이트는 DORA의 로고·브랜드 자산을 사용하지 않으며, DORA·Google과 **공식 제휴·후원·보증 관계가 없습니다.**
+
 ## 면책
 
 - 이 사이트는 **DORA 및 Google과 공식 제휴 관계가 없는 비공식 문서**입니다.
-- DORA, Google Cloud는 해당 소유자의 상표입니다.
 - 요약 과정의 오류 가능성이 있으므로, 의사결정 시에는 원문을 우선하세요.
 
 ## 저장소

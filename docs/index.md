@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "DORA AI Guide"
+  name: "DORA AI Guide (비공식)"
   text: "AI는 증폭기다"
   tagline: DORA의 AI 리서치를 한국어로 요약한 비공식 학습 가이드
   actions:

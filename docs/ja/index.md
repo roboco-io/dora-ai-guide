@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "DORA AI Guide"
+  name: "DORA AI Guide（非公式）"
   text: "AIは増幅器である"
   tagline: DORAのAIリサーチを日本語で要約した非公式ガイド
   actions:

@@ -211,6 +211,7 @@ const SITE_URL = "https://roboco.io/dora-ai-guide/";
 
 function ogHead(o: {
   locale: string;
+  siteName: string;
   image: string;
   alt: string;
   title: string;
@@ -218,6 +219,7 @@ function ogHead(o: {
 }): HeadConfig[] {
   return [
     ["meta", { property: "og:locale", content: o.locale }],
+    ["meta", { property: "og:site_name", content: o.siteName }],
     ["meta", { property: "og:image", content: SITE_URL + o.image }],
     ["meta", { property: "og:image:width", content: "1200" }],
     ["meta", { property: "og:image:height", content: "630" }],
@@ -239,7 +241,6 @@ export default defineConfig({
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "/dora-ai-guide/logo.svg" }],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:site_name", content: "DORA AI Guide" }],
   ],
   cleanUrls: true,
   lastUpdated: true,
@@ -258,13 +259,15 @@ export default defineConfig({
     root: {
       label: "한국어",
       lang: "ko-KR",
+      title: "DORA AI Guide (비공식)",
       description:
         "DORA의 AI 리서치를 한국어로 요약한 비공식 가이드. 원문은 CC BY 4.0.",
       head: ogHead({
         locale: "ko_KR",
+        siteName: "DORA AI Guide (비공식)",
         image: "og.png",
-        alt: "DORA AI Guide — AI는 증폭기다",
-        title: "DORA AI Guide — AI는 증폭기다",
+        alt: "DORA AI Guide (비공식) — AI는 증폭기다",
+        title: "DORA AI Guide (비공식) — AI는 증폭기다",
         description:
           "DORA의 AI 리포트·7대 역량·인사이트를 한국어로 요약한 비공식 가이드. 원문 CC BY 4.0.",
       }),
@@ -283,13 +286,15 @@ export default defineConfig({
     ja: {
       label: "日本語",
       lang: "ja",
+      title: "DORA AI Guide（非公式）",
       description:
         "DORAのAIリサーチを日本語で要約した非公式ガイド。原文はCC BY 4.0。",
       head: ogHead({
         locale: "ja_JP",
+        siteName: "DORA AI Guide（非公式）",
         image: "og.ja.png",
-        alt: "DORA AI Guide — AIは増幅器である",
-        title: "DORA AI Guide — AIは増幅器である",
+        alt: "DORA AI Guide（非公式） — AIは増幅器である",
+        title: "DORA AI Guide（非公式） — AIは増幅器である",
         description:
           "DORAのAIレポート・7つのケイパビリティ・インサイトを日本語で要約した非公式ガイド。原文はCC BY 4.0。",
       }),
