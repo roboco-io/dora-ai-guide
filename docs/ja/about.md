@@ -46,4 +46,4 @@
 ## リポジトリ
 
 - ソース: <https://github.com/roboco-io/dora-ai-guide>
-- サイト: <https://roboco-io.github.io/dora-ai-guide/>
+- サイト: <https://roboco.io/dora-ai-guide/>

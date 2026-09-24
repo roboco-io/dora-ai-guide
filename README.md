@@ -2,7 +2,7 @@
 
 [DORA (dora.dev)](https://dora.dev/ai/)의 AI 관련 리서치를 한국어와 일본어로 요약·정리한 비공식 학습 가이드입니다.
 
-- 사이트: <https://roboco-io.github.io/dora-ai-guide/>
+- 사이트: <https://roboco.io/dora-ai-guide/>
 - 원문: <https://dora.dev/ai/>
 - 스택: [VitePress](https://vitepress.dev/) (한국어 루트 + `/ja/` 일본어)
 
@@ -28,7 +28,8 @@ npm run docs:preview
 ## 배포
 
 GitHub Actions가 `main` 브랜치 push 시 `docs/.vitepress/dist`를 GitHub Pages로 배포합니다.
-커스텀 도메인을 쓸 경우 `docs/public/CNAME`에 도메인을 추가하고 `docs/.vitepress/config.ts`의 `base`를 `/`로 수정하세요.
+조직 GitHub Pages 도메인(`roboco.io`) 하위 경로로 서비스되므로 `base`는 `/dora-ai-guide/`입니다.
+`dora-ai.roboco.io` 같은 전용 서브도메인을 쓰려면 `docs/public/CNAME`에 도메인을 추가하고 DNS CNAME을 설정한 뒤 `base`를 `/`로 수정하세요.
 
 ## 저작권 및 라이선스
 

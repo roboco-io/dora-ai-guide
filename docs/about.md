@@ -46,4 +46,4 @@
 ## 저장소
 
 - 소스: <https://github.com/roboco-io/dora-ai-guide>
-- 사이트: <https://roboco-io.github.io/dora-ai-guide/>
+- 사이트: <https://roboco.io/dora-ai-guide/>
