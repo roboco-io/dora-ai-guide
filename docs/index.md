@@ -19,12 +19,12 @@ hero:
 features:
   - icon: 📈
     title: 4대 리포트
-    details: ROI of AI · AI Capabilities Model · 2025 State of AI-assisted SD · 2024 Impact of Gen AI
+    details: ROI of AI · AI Capabilities Model · 2025 State of AI-assisted SD · Impact of Gen AI (2025)
     link: /reports/
     linkText: 리포트 총람
   - icon: 🧩
     title: 7대 역량
-    details: 데이터·AI 입장·플랫폼·사용자 중심·버전 관리·작은 배치
+    details: 내부 데이터·데이터 생태계·AI 입장·플랫폼·사용자 중심·버전 관리·작은 배치
     link: /capabilities/
     linkText: 역량 살펴보기
   - icon: 💡
@@ -39,7 +39,7 @@ features:
 > **AI는 조직의 기존 강점과 약점을 똑같이 증폭하는 *증폭기(amplifier)*다.**
 > AI 투자의 최대 수익은 도구가 아니라, 그 아래 깔린 **조직 시스템**을 정비하는 데서 나온다.
 
-DORA(DevOps Research and Assessment)는 Google Cloud가 운영하는 10년 넘은 소프트웨어 딜리버리 연구 프로그램입니다. 2023년부터 매년 AI가 소프트웨어 개발에 미치는 영향을 연구해 왔고, 2024~2026년 사이에 **리포트 4종 + 인사이트 12편 + 실무 가이드 1편**을 공개했습니다.
+DORA(DevOps Research and Assessment)는 Google Cloud가 운영하는 10년 넘은 소프트웨어 딜리버리 연구 프로그램입니다. 2023년부터 매년 AI가 소프트웨어 개발에 미치는 영향을 연구해 왔고, 2024-2026년 사이에 **리포트 4종 + 인사이트 12편 + 실무 가이드 1편**을 공개했습니다.
 
 이 사이트는 그중 [dora.dev/ai](https://dora.dev/ai/)에 공개된 자료를 요약한 것입니다.
 
@@ -55,10 +55,10 @@ DORA(DevOps Research and Assessment)는 Google Cloud가 운영하는 10년 넘�
 ## 먼저 기억할 5개 숫자
 
 - **90%** — 직장에서 AI를 사용하는 기술 전문가 비율 (2025 DORA)
-- **80%** — AI가 생산성을 높였다고 답한 비율
-- **30%** — AI가 만든 코드를 "거의/전혀 신뢰하지 않는다"는 비율
-- **+1.5% / −7.2%** — AI 도입 25% 증가 시 각각 딜리버리 처리량 증가, 안정성 감소 (2024 DORA)
-- **40%** — 사용자 중심 팀의 조직 성과 우위
+- **80% 이상** — AI가 생산성을 높였다고 답한 비율 (2025 DORA)
+- **약 30%** — AI 출력을 '조금' 신뢰하거나 '전혀' 신뢰하지 않는다고 답한 비율 (2025 DORA)
+- **−1.5% / −7.2%** — AI 도입이 25% 늘 때 연관되어 나타난 딜리버리 처리량 감소폭과 안정성 감소폭 (2024 DORA)
+- **40%** — 사용자에 집중하는 팀이 그렇지 않은 팀보다 높은 조직 성과 (DORA 가이드 [생성형 AI로 혁신하기](/guide/innovate-with-gen-ai))
 
 ## 읽는 순서 추천
 

@@ -19,12 +19,12 @@ hero:
 features:
   - icon: 📈
     title: 4大レポート
-    details: ROI of AI · AI Capabilities Model · 2025 State of AI-assisted SD · 2024 Impact of Gen AI
+    details: ROI of AI · AI Capabilities Model · 2025 State of AI-assisted SD · Impact of Gen AI (2025)
     link: /ja/reports/
     linkText: レポート一覧
   - icon: 🧩
     title: 7つのケイパビリティ
-    details: データ · AIスタンス · プラットフォーム · ユーザー中心 · バージョン管理 · 小さなバッチ
+    details: 社内データ · データエコシステム · AIスタンス · プラットフォーム · ユーザー中心 · バージョン管理 · 小さなバッチ
     link: /ja/capabilities/
     linkText: ケイパビリティを見る
   - icon: 💡
@@ -55,10 +55,10 @@ DORA（DevOps Research and Assessment）は、Google Cloudが運営する10年�
 ## まず覚える5つの数字
 
 - **90%** — 仕事でAIを使う技術専門家の割合（2025 DORA）
-- **80%** — AIが生産性を高めたと答えた割合
-- **30%** — AI生成コードを「ほとんど／まったく」信頼しない割合
-- **+1.5% / −7.2%** — AI導入が25%増えたときのデリバリー処理量の増加と安定性の低下（2024 DORA）
-- **40%** — ユーザー中心チームの組織パフォーマンス優位
+- **80%以上** — AIが生産性を高めたと答えた割合（2025 DORA）
+- **約30%** — AIの出力を「少し信頼している」または「まったく信頼していない」と答えた割合（2025 DORA）
+- **−1.5% / −7.2%** — AI導入が25%増えることと関連して見られた、デリバリー処理量と安定性の低下幅（2024 DORA）
+- **40%** — ユーザーに集中するチームがそうでないチームより高い組織パフォーマンス（DORAガイド[生成AIでソフトウェアデリバリーを革新する](/ja/guide/innovate-with-gen-ai)）
 
 ## おすすめの読み順
 

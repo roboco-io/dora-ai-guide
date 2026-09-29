@@ -1,24 +1,24 @@
 # 리포트 총람
 
-DORA는 2024년부터 2026년까지 AI를 주제로 네 편의 리포트를 발표했습니다. 각 리포트는 서로를 보완하며 **개별 개발자 → 조직 → 실행 역량**으로 시야를 넓혀 갑니다.
+DORA는 2025년부터 2026년까지 AI를 주제로 네 편의 리포트를 발표했습니다. 각 리포트는 서로를 보완하며 **개별 개발자 → 조직 → 실행 역량**으로 시야를 넓혀 갑니다.
 
 ## 한눈에 보기
 
 | 리포트 | 발표 | 한 줄 요약 | 읽기 |
 |---|---|---|---|
-| **Impact of Generative AI in Software Development** | 2024.10 | AI는 개인 생산성·웰빙을 높이지만, 아직 딜리버리 성과에는 부정적일 수 있다 | [요약](/reports/impact-of-gen-ai-2024) |
+| **Impact of Generative AI in Software Development** | 2025.03 | AI는 개인 생산성·웰빙을 높이지만, 아직 딜리버리 성과에는 부정적일 수 있다 | [요약](/reports/impact-of-gen-ai-2024) |
 | **State of AI-assisted Software Development** | 2025.09 | AI는 **증폭기**다. 처리량은 늘지만 안정성은 흔들린다 | [요약](/reports/state-of-ai-assisted-sd-2025) |
 | **DORA AI Capabilities Model** | 2025.12 | AI 효과를 증폭시키는 **7대 역량**과 실행 전략 | [요약](/reports/ai-capabilities-model) |
 | **ROI of AI-assisted Software Development** | 2026 | AI 투자 수익률을 계산하고 방어하는 실무 프레임워크 | [요약](/reports/roi-of-ai) |
 
 ## 왜 "트릴로지 + 1"인가
 
-DORA 스스로 2025년을 "트릴로지(triology)"의 해라고 표현합니다.
+DORA는 [2025 Year in Review](https://dora.dev/insights/dora-2025-year-in-review/)에서 2025년에 연례 리포트 한 편이 아니라 "트릴로지(trilogy)", 즉 세 편의 연작을 발표했다고 설명합니다. 여기에 2026년의 ROI 리포트를 더한 것이 이 사이트가 다루는 네 편입니다.
 
-1. **2024 Impact of Gen AI** — 문제 제기. AI 도입의 개인적 이득과 조직적 역설을 처음 드러냄
-2. **2025 State of AI-assisted SD** — 전체상. AI가 조직 시스템을 증폭한다는 중심 명제를 확립
-3. **2025 AI Capabilities Model** — 처방. 증폭 효과를 실제로 얻기 위한 7대 역량 제시
-4. **2026 ROI of AI** — 정당화. "생산성 침체(productive dip)"를 견디고 예산을 방어하는 계산 도구
+1. **Impact of Gen AI (2025.03)** — 문제 제기. 2024년 연구를 바탕으로 AI 도입의 개인적 이득과 조직적 역설을 드러냄
+2. **State of AI-assisted SD (2025.09)** — 전체상. AI가 조직 시스템을 증폭한다는 중심 명제를 확립
+3. **AI Capabilities Model (2025.12)** — 처방. 증폭 효과를 실제로 얻기 위한 7대 역량 제시
+4. **ROI of AI (2026, 트릴로지 밖의 후속편)** — 정당화. "생산성 침체(productivity dip)"를 견디고 예산을 방어하는 계산 도구
 
 ## 공통적으로 반복되는 메시지
 
