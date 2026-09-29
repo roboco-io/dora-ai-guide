@@ -1,4 +1,4 @@
-# 교사로서의 AI
+# 튜터로서의 AI
 
 > 발표: 2025년 12월 · 저자: Andrew Harlan, Kenny Ly, Mindy Tsai, Karissa Wong · 원문: <https://dora.dev/insights/ai-as-a-tutor/>
 

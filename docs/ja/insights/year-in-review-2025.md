@@ -33,7 +33,7 @@ CNN・Business Insiderが採用規模を、Newsweekが「利用は高いが信�
 
 - **「脱略語化(de-acronymed)」**: DORAが独立した名称に。年次レポート名を「Accelerate State of DevOps」から**「State of AI-assisted Software Development」**へ変更 — DevOpsを超えた拡張を意味する。
 - **デリバリー指標が4つ → 5つへ進化**。
-- 2025年にdora.devへ**267件の変更**をデプロイ — 稼働日ごとに1件以上の継続的デリバリー。
+- 2025年にdora.devへ**267件の変更**をデプロイ — 稼働日あたり平均1件以上に相当する継続的デリバリー。
 
 ## 2026年以降
 

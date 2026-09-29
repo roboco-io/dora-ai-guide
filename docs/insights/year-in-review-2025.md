@@ -33,7 +33,7 @@ CNN·Business Insider가 채택 규모를, Newsweek가 "사용은 높지만 신�
 
 - **"탈약어화(de-acronymed)"**: DORA가 독립 명칭으로. 연례 리포트명을 "Accelerate State of DevOps"에서 **"State of AI-assisted Software Development"** 로 변경 — DevOps를 넘어선 확장을 의미.
 - **딜리버리 지표가 4개 → 5개로 진화**.
-- 2025년 dora.dev에 **267건의 변경** 배포 — 근무일마다 1건 이상의 지속적 딜리버리.
+- 2025년 dora.dev에 **267건의 변경** 배포 — 근무일당 평균 1건 이상꼴의 지속적 딜리버리.
 
 ## 2026년 이후
 

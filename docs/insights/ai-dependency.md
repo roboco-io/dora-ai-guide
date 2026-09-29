@@ -2,7 +2,7 @@
 
 > 발표: 2026년 2월 · 저자: Andrew Harlan, Kenny Ly, Mindy Tsai · 원문: <https://dora.dev/insights/managing-ai-dependency/>
 
-> [교사로서의 AI](/insights/ai-as-a-tutor)에 이은 2부 시리즈입니다.
+> [튜터로서의 AI](/insights/ai-as-a-tutor)에 이은 2부 시리즈입니다.
 
 ## 핵심 명제
 
@@ -43,8 +43,8 @@ EEG 연구는 **AI 사용자가 더 약한 인지적 몰입 패턴**을 보였�
 ## DORA 관점
 
 - **인지적 전환 관리**: AI가 역량을 키우면 업무 산출 기대도 높아지는 '**업무 강도화(work intensification)**' 경향. 개인 효과성이 올라도 요구/자원 균형은 그대로여서 번아웃은 기술로 잘 해결되지 않습니다.
-- **회의적 전략**: 90%가 AI를 쓰지만 **'신뢰하되 검증'** 마인드셋. 80%가 생산성 증가를 보고하나 30%는 코드를 거의/전혀 신뢰하지 않습니다. **핵심은 사용 권장이 아니라 비판적 평가·검증 스킬 습득**으로 이동합니다.
-- **국지적 생산성 정체 돌파**: 성공은 도구 문제가 아니라 **시스템 문제**. VSM으로 실제 시스템 제약(코드 리뷰 병목)을 제거해야 합니다 — 시스템이 감당 못 할 코드를 더 많이 생성하는 것으로는 안 됩니다.
+- **회의적 전략**: 90%가 AI를 쓰지만 **'신뢰하되 검증'** 마인드셋. 80%가 생산성 증가를 보고하나, 2025년 DORA 리포트 기준 30%는 AI 생성 코드를 '조금' 신뢰하거나 '전혀' 신뢰하지 않습니다. **핵심은 사용 권장이 아니라 비판적 평가·검증 스킬 습득**으로 이동합니다.
+- **국지적 생산성 정체 돌파**: 성공은 도구 문제가 아니라 **시스템 문제**. **가치 흐름 관리(Value Stream Management, VSM)**—아이디어에서 고객 전달까지의 작업 흐름을 측정·관리해 병목을 찾는 방법—로 실제 시스템 제약(코드 리뷰 병목)을 제거해야 합니다 — 시스템이 감당 못 할 코드를 더 많이 생성하는 것으로는 안 됩니다.
 
 ::: info 출처
 DORA [Managing AI dependency: How students are establishing guardrails with AI](https://dora.dev/insights/managing-ai-dependency/) 요약. 원문 © Google LLC, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

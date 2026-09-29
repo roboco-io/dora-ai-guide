@@ -1,4 +1,4 @@
-# 家庭教師としてのAI
+# チューターとしてのAI
 
 > 発表: 2025年12月 · 著者: Andrew Harlan, Kenny Ly, Mindy Tsai, Karissa Wong · 原文: <https://dora.dev/insights/ai-as-a-tutor/>
 
