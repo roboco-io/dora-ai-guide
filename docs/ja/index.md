@@ -36,7 +36,7 @@ features:
 
 ## 一文でまとめると
 
-> **AIは、組織の既存の強みと弱みを等しく増幅する*増幅器（amplifier）*である。**
+> **AIは、組織の既存の強みと弱みを等しく増幅する*増幅器（amplifier）* である。**
 > AI投資の最大のリターンは、ツールではなく、その下にある**組織システム**を整えることから生まれる。
 
 DORA（DevOps Research and Assessment）は、Google Cloudが運営する10年以上の歴史を持つソフトウェアデリバリー研究プログラムです。2023年からAIがソフトウェア開発に与える影響を研究しており、2024〜2026年にかけて**4本のレポート + 12本のインサイト + 1本の実践ガイド**を公開しました。
@@ -67,5 +67,5 @@ DORA（DevOps Research and Assessment）は、Google Cloudが運営する10年�
 3. **実践者なら** → [信頼の育み方](/ja/insights/trust-in-ai) → [小さなバッチ](/ja/capabilities/working-in-small-batches) → [バージョン管理](/ja/capabilities/version-control)
 
 ::: info 出典とライセンス
-このサイトはDORA・Googleと公式提携関係のない**非公式の要約**です。すべての原文は別途明記がない限り**Google LLC**が**[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**でライセンスしており、本要約も同じ条件に従います。詳細は[出典とライセンス](/ja/about)をご覧ください。
+このサイトはDORA・Googleと公式提携関係のない**非公式の要約**です。すべての原文は別途明記がない限り**Google LLC**が **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** でライセンスしており、本要約も同じ条件に従います。詳細は[出典とライセンス](/ja/about)をご覧ください。
 :::
