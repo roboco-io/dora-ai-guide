@@ -241,6 +241,12 @@ export default defineConfig({
   head: [
     ["link", { rel: "icon", type: "image/svg+xml", href: "/dora-ai-guide/logo.svg" }],
     ["meta", { property: "og:type", content: "website" }],
+    ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-9G1SGM9SZQ" }],
+    [
+      "script",
+      {},
+      "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-9G1SGM9SZQ');",
+    ],
   ],
   cleanUrls: true,
   lastUpdated: true,
